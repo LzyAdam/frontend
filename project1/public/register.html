@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="http://localhost:3000/css/styles.css"> <!-- use absolute path-->
+  <link rel="stylesheet" href="http://localhost:3000/css/register.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <a href="http://localhost:3000" class="logo_link">
+        <img class="logo" src="http://localhost:3000/images/logo.jpg" alt="">
+      </a>
+      <h1 class="header__title">Register Page</h1>
+      <nav>
+        <button type="button">Menu</button>
+        <ul>
+          <li><a href="http://localhost:3000">Home Page</a></li>
+          <li><a href="http://localhost:3000/register.html">Register</a></li>
+          <li><a href="http://localhost:3000/about.html">About Panda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    <form action="/register" method="POST">
+
+      <label class="required">
+        <span>
+          Name:
+        </span>
+        <input type="text" name="name" required>
+      </label>
+
+      <label class="required">
+        <span>
+          Email:
+        </span>
+        <input type="text" name="email" required>
+      </label>
+
+      <label>
+        <span>
+          Do you want us to send you some advertisement about cat?
+        </span>
+        <input type="checkbox" name="annoy_me" checked>
+      </label>
+
+      <label class="required">
+        <span>How you like cat?</span>
+        <select name="like_cat" required>
+          <option value="" selected>Please select</option>
+          <option value="1">very like</option>
+          <option value="2">like</option>
+          <option value="3">neutral</option>
+          <option value="4">dislike</option>
+          <option value="5">hate</option>
+        </select>
+      </label>
+
+      <button type="submit">Register</button>
+    </form>
+
+
+  </main>
+  <footer>
+    <div><a href="privacy.html">Our Privacy Policy</a></div>
+  </footer>
+</body>
+
+</html>

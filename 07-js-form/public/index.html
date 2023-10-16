@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>hw7</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Register</h1>
+  </header>
+
+  <main>
+
+    <form action="/register" method="POST" name="register-form">
+
+      <span class="name-validation validation-failure hide">
+      </span>
+      <label class="required">
+        <span>
+          Name:
+        </span>
+        <input type="text" name="name" class="input-name">
+      </label>
+
+
+      <span class="email-validation validation-failure hide">
+      </span>
+      <label class="required">
+        <span>
+          Email:
+        </span>
+        <input type="text" name="email" class="input-email">
+      </label>
+
+
+      <span class="confirm-email-validation validation-failure hide">
+      </span>
+      <label class="required">
+        <span>
+          Confirm Email:
+        </span>
+        <input type="text" name="confirm-email" class="input-confirm-email">
+      </label>
+
+      <label class="label-checkbox">
+        <span>
+          Do you want us to send you annoying emails?
+        </span>
+        <input type="checkbox" name="wants-spam" checked>
+      </label>
+
+      <label>
+        <span>Tier:</span>
+        <select name="tier">
+          <option value="" selected>Please select</option>
+          <option value="1">Silver Tier</option>
+          <option value="2">Gold Tier</option>
+          <option value="3">Platinum Tier</option>
+        </select>
+      </label>
+
+      <button type="submit">Register</button>
+    </form>
+
+  </main>
+
+  <footer>
+    <div><a href="ourprivacy.html">Our Privacy Policy</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

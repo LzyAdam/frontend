@@ -1,0 +1,15 @@
+
+header{
+    border: 1 solid black;
+}
+main{
+    border: 1 solid black;
+}
+main p {
+    margin: 1rem;
+    color: aliceblue;
+    
+  }
+footer{
+    border: 1 solid black;
+}

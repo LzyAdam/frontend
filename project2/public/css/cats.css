@@ -1,0 +1,66 @@
+/*
+Main
+*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  
+    background-color: inherit;
+    border: none;
+  }
+  
+  
+  .card {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin: 0.5rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+  }
+  
+  .card__title {
+    text-align: center;
+  }
+  
+  .card__pic {
+    aspect-ratio: 1 / 1;
+    width: 80%;
+    border-radius: 1rem;
+  }
+  
+  .card__text {
+    border: none;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form * {
+    margin: 0.5rem auto;
+  }
+  
+  .validation-failure {
+    padding: 0.5rem;
+    margin-bottom: 0;
+    border: 1px solid red;
+  
+    color: red;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 44rem) {
+    .card {
+      grid-column: span 12;
+    }
+  }

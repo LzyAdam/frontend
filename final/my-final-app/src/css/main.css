@@ -1,0 +1,58 @@
+main {
+    
+    background-image: linear-gradient(to bottom, #07f217ec, #19dd5b, #1ee592e3, #29e3b2de, #09efd0f6);
+  
+    padding-bottom: 2rem;
+  }
+  
+  
+  
+  /**
+  Title 2
+  */
+  
+  .title2 {
+    text-align: left;
+    color: aliceblue;
+    padding-bottom: 1rem;
+  }
+  
+ 
+  .texts p {
+    margin-left: 2rem;
+    margin-right:2rem;
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem 0;
+    
+  }
+  
+  form * {
+    margin: 0.5rem auto;
+  }
+  
+  form button {
+    margin-top: wrem;
+  
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(26, 205, 163);
+  }
+  
+  .validation-failure {
+    padding: 0.5rem;
+    margin-bottom: 0;
+    border: 1px solid rgb(0, 4, 255);
+  
+    color: rgb(8, 0, 255);
+  }

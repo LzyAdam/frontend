@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Basic-Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Create an account</h1>
+  </header>
+  <main>
+    <form action="/submit" method="POST">
+
+      <label class="required">
+        <span>
+          Name:
+        </span>
+        <input type="text" name="name" required>
+      </label>
+
+      <label class="required">
+        <span>
+          Email:
+        </span>
+        <input type="text" name="email" required>
+      </label>
+
+      <label>
+        <span>
+          Do you want us to send you annoying emails?
+        </span>
+        <input type="checkbox" name="annoy_me" checked>
+      </label>
+
+      <label class="required">
+        <span>Tier:</span>
+        <select name="tier" required>
+          <option value="" selected>Please select</option>
+          <option value="1">Silver Tier</option>
+          <option value="2">Gold Tier</option>
+          <option value="3">Platinum Tier</option>
+        </select>
+      </label>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+  <footer>
+    <div><a href="#">We don't care your privacy</a></div>
+  </footer>
+</body>
+
+</html>

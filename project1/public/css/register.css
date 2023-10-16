@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    flex-direction: column;  
+    
+  }
+  
+  form * {
+    margin: 0.5rem auto ;
+  }
+  
+  form button {
+    margin-top: 3rem;  
+    width: 10rem;
+    height: 2rem;
+    border: 1 solid;    
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(63, 215, 46);
+    cursor: pointer;
+  }
+  
+  .required span:after {
+    content: " #";
+    color: rgb(255, 72, 0);
+  }
+  
+  @media screen and (max-width: 50rem) {
+    form * {
+      margin: 0.5rem auto;
+    }
+  
+    label {
+      display: flex;
+      flex-direction: column;
+    }
+  }

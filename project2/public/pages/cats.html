@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="http://localhost:3000/css/styles.css"> 
+  <link rel="stylesheet" href="http://localhost:3000/css/cats.css">
+  <script defer src="http://localhost:3000/scripts/script.js"></script>
+</head>
+
+<body>
+  <div id="root">
+
+    <header>
+      <div class="loge__and_title">
+        <a href="http://localhost:3000" class="logo_link">
+          <img class="logo" src="http://placekitten.com/100/100" alt="">
+        </a>
+        <h1 class="header__title">Cats on the Internet</h1>
+        <button class="icon">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+      </div>
+      <nav class="globalnav">
+        <ul class="globalnav__menu hidden">
+          <li><a href="http://localhost:3000">Home</a></li>
+          <li><a href="http://localhost:3000/pages/cats.html">Famous Cats</a></li>
+          <li><a href="/cat_events.html">Cat Events</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <main>
+
+
+      <div class="cards">
+        <div class="card">
+          <h2 class="card__title">Cat1</h3>
+            <img class="card__pic" src="http://placekitten.com/100/100" alt="A cute cat">
+            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed eleifend nunc.
+              Vivamus nec pharetra mi. </div>
+            <div class="card__text">Quisque quis justo lacus. Phasellus condimentum est vitae orci aliquam, vel
+              <a href="" class="aHref1">Subscribe</a> ante porttitor.
+            </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title">Cat2</h3>
+            <img class="card__pic" src="http://placekitten.com/100/100" alt="A cute cat">
+            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed eleifend nunc.
+              Vivamus nec pharetra mi. </div>
+            <div class="card__text">Quisque quis justo lacus. Phasellus condimentum est vitae orci aliquam, vel
+              <a href="" class="aHref2">Subscribe</a> ante porttitor.
+            </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title">Cat3</h3>
+            <img class="card__pic" src="http://placekitten.com/100/100" alt="A cute cat">
+            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed eleifend nunc.
+              Vivamus nec pharetra mi. </div>
+            <div class="card__text">Quisque quis justo lacus. Phasellus condimentum est vitae orci aliquam, vel
+              <a href="" class="aHref3">Subscribe</a> ante porttitor.
+            </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title">Cat4</h3>
+            <img class="card__pic" src="http://placekitten.com/100/100" alt="A cute cat">
+            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed eleifend nunc.
+              Vivamus nec pharetra mi. </div>
+            <div class="card__text">Quisque quis justo lacus. Phasellus condimentum est vitae orci aliquam, vel
+              <a href="" class="aHref4">Subscribe</a> ante porttitor.
+            </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title">Cat5</h3>
+            <img class="card__pic" src="http://placekitten.com/100/100" alt="A cute cat">
+            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed eleifend nunc.
+              Vivamus nec pharetra mi. </div>
+            <div class="card__text">Quisque quis justo lacus. Phasellus condimentum est vitae orci aliquam, vel
+              <a href="" class="aHref5">Subscribe</a> ante porttitor.
+            </div>
+        </div>
+        <div class="card">
+          <h2 class="card__title">Cat6</h3>
+            <img class="card__pic" src="http://placekitten.com/100/100" alt="A cute cat">
+            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed eleifend nunc.
+              Vivamus nec pharetra mi. </div>
+            <div class="card__text">Quisque quis justo lacus. Phasellus condimentum est vitae orci aliquam, vel
+              <a href="" class="aHref6">Subscribe</a> ante porttitor.
+            </div>
+        </div>
+      </div>
+
+      <dialog class="modal">
+        <h1>Subscribe to the Lateset News</h1>
+        <form action="/subscribe" method="POST" name="subscribe-form">
+          <span class="email-validation validation-failure hide">
+          </span>
+          <label class="required">
+            <span>
+              Email: <i>* required </i>
+            </span>
+            <input type="text" name="email" class="input-email">
+          </label>
+          <span class="confirm-email-validation validation-failure hide">
+          </span>
+          <label class="required">
+            <span>
+              Confirm Email: <i>* required </i>
+            </span>
+            <input type="text" name="confirm-email" class="input-confirm-email">
+          </label>
+          <button class="Subscribe" type="submit">Subscribe</button>
+          <button class="close" type="button">Close</button>
+        </form>
+      </dialog>
+
+
+
+    </main>
+
+
+
+    <footer>
+      <nav class="footernav">
+        <ul class="footernav__menu">
+          <li><a href="/privacy_policy.html">Privacy Policy</a></li>
+          <li><a href="/work_for_us.html">Work for Us</a></li>
+          <li><a href="/contact_us.html">Contact Us</a></li>
+          <li><a href="/social_Media.html">Social Media</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </div>
+  
+</body>
+
+</html>
